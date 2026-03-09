@@ -1,0 +1,11 @@
+{
+    "title": "Bad Questions Type",
+    "description": "A quiz with a group whose questions field is a string.",
+
+    "groups": [
+        {
+            "name": "A",
+            "questions": "not-a-list"
+        }
+    ]
+}

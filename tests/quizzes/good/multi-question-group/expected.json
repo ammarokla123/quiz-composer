@@ -1,0 +1,76 @@
+{
+    "quiz": {
+        "title": "Multi Question Group",
+        "course_title": "",
+        "term_title": "",
+        "description": "A quiz with a group containing multiple questions.",
+        "date": "2025-02-25",
+        "total_points": 20,
+        "time_limit_mins": null,
+        "shuffle_answers": false,
+        "pick_with_replacement": true,
+        "version": "test",
+        "seed": 0
+    },
+    "answer_key": false,
+    "groups": [
+        {
+            "group": {
+                "id": "0",
+                "name": "MCQ Group",
+                "pick_count": 2,
+                "points": 10,
+                "shuffle_answers": true,
+                "pick_with_replacement": true,
+                "custom_header": null,
+                "skip_numbering": null,
+                "hints": {},
+                "hints_first": {},
+                "hints_last": {}
+            },
+            "questions": [
+                {
+                    "id": "0.0",
+                    "number": 1,
+                    "base_dir": "questions/good/sa-basic",
+                    "prompt": "Short Answer: Basic",
+                    "question_type": "short_answer",
+                    "answers": [
+                        {
+                            "text": ""
+                        }
+                    ],
+                    "points": 10,
+                    "name": "MCQ Group - 1",
+                    "hints": {},
+                    "shuffle_answers": true,
+                    "custom_header": null,
+                    "skip_numbering": null
+                },
+                {
+                    "id": "0.1",
+                    "number": 2,
+                    "base_dir": "questions/good/tf-true",
+                    "prompt": "True\\/False: True",
+                    "question_type": "true_false",
+                    "answers": [
+                        {
+                            "correct": true,
+                            "text": "True"
+                        },
+                        {
+                            "correct": false,
+                            "text": "False"
+                        }
+                    ],
+                    "points": 10,
+                    "name": "MCQ Group - 2",
+                    "hints": {},
+                    "shuffle_answers": true,
+                    "custom_header": null,
+                    "skip_numbering": null
+                }
+            ]
+        }
+    ]
+}

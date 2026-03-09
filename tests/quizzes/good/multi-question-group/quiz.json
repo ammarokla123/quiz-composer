@@ -1,0 +1,21 @@
+{
+    "title": "Multi Question Group",
+    "date": "2025-02-25",
+
+    "description": "A quiz with a group containing multiple questions.",
+
+    "shuffle_answers": false,
+    "seed": 42,
+
+    "groups": [
+        {
+            "name": "MCQ Group",
+            "pick_count": 2,
+            "questions": [
+                "../../../questions/good/mcq-basic",
+                "../../../questions/good/tf-true",
+                "../../../questions/good/sa-basic"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Empty Group Questions",
+    "description": "A quiz with a group that has no questions.",
+
+    "groups": [
+        {
+            "name": "Empty",
+            "questions": []
+        }
+    ]
+}

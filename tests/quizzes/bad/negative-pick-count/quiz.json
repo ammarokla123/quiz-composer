@@ -1,0 +1,14 @@
+{
+    "title": "Negative Pick Count",
+    "description": "A quiz with a group that has a negative pick count.",
+
+    "groups": [
+        {
+            "name": "A",
+            "pick_count": -1,
+            "questions": [
+                "../../../questions/good/mcq-basic"
+            ]
+        }
+    ]
+}

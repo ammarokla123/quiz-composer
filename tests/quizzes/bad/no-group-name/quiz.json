@@ -1,0 +1,12 @@
+{
+    "title": "No Group Name",
+    "description": "A quiz with a group missing its name.",
+
+    "groups": [
+        {
+            "questions": [
+                "../../../questions/good/mcq-basic"
+            ]
+        }
+    ]
+}

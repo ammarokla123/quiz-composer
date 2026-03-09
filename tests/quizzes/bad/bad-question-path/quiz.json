@@ -1,0 +1,13 @@
+{
+    "title": "Bad Question Path",
+    "description": "A quiz referencing a nonexistent question.",
+
+    "groups": [
+        {
+            "name": "A",
+            "questions": [
+                "../../../questions/good/does-not-exist"
+            ]
+        }
+    ]
+}
